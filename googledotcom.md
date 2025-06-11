@@ -31,3 +31,7 @@ This is made possible by the use of one or more application servers. These are s
 
 ## 8.Database
 If the request requires data from a database, the request is passed to a database server. The database server is responsible for storing, organizing, and retrieving data. This allows websites to provide personalized content and store user data.
+
+## Rendering
+The HTTP response makes its way back through the channels, reaching your browser which then renders the HTML, CSS, and JavaScript to display the webpage we all know and love as Google.
+This orchestrated sequence of events, though appearing instantaneous to us, embodies a marvel of engineering and a testament to the boundless possibilities within the realm of technology.
