@@ -28,3 +28,6 @@ Another key component in securing websites is the SSL certificate. SSL stands fo
  ## 7.Application Server
  Most sites don’t just want a static page where no interaction is happening, and most websites are dynamic. That means that it’s possible to interact with the site, save information into it, log in with a user name and a password, etc.
 This is made possible by the use of one or more application servers. These are software programs responsible for operating applications, communicate with databases and manage user information, among other things. they work behind web servers and will be able to serve a dynamic application using the static content from the web server.
+
+## 8.Database
+If the request requires data from a database, the request is passed to a database server. The database server is responsible for storing, organizing, and retrieving data. This allows websites to provide personalized content and store user data.
