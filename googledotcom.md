@@ -1,0 +1,8 @@
+# What Happens when you type Google.com and press enter?
+When you type "google.com" into your browser’s address bar and hit enter, a series of complex processes are triggered behind the scenes, resulting in the webpage loading and you being able to start searching. While the entire process is highly optimized and happens in milliseconds, it involves several key steps.Let’s break down what happens in a bit of technical detail.
+
+## 1.Domain Name System (DNS) Lookup
+ When you type Google.com or any domain name in your browser on your computer or device what really happens is, a request is sent to the domain name system (DNS) server which serves as an address book for all domain names. This then sends back the exact IP address of the server which https://www.google.com points to. This address will be like 123.122.130.3 rendering these numbers for humans is not possible to remember, hence the need for servers known as Domain Name System Servers. The domain names are a way for humans to remember easily for e.g Google.com, twitter.com, etc.
+ If you had accessed google.com or twitter.com earlier, the browser first checks its cache to see if it has a recent record of that domain name.
+ If there is a recent copy of the DNS records for that domain, it will use the IP address in the cache to send a request to the server. This speeds up the process of resolving the domain name to an IP address because it avoids the need to send a request to the DNS server.
+ If the browser cache does not find a copy of the recent record of the requested domain, or if the DNS record has changed since the last time it was cached, the browser will send a request to the DNS server to resolve the domain name to an IP address.
