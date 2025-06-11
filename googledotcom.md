@@ -24,3 +24,7 @@ Another key component in securing websites is the SSL certificate. SSL stands fo
 
  ## 6.Web Server
  So Once the request is received by one of Google’s servers or the domain URL server you were looking for from the load balancer, it is passed to a web server. The web server is responsible for processing the request, generating the HTML, CSS, and JavaScript that make up the webpage, and sending it back to your browser for you to see it.
+
+ ## 7.Application Server
+ Most sites don’t just want a static page where no interaction is happening, and most websites are dynamic. That means that it’s possible to interact with the site, save information into it, log in with a user name and a password, etc.
+This is made possible by the use of one or more application servers. These are software programs responsible for operating applications, communicate with databases and manage user information, among other things. they work behind web servers and will be able to serve a dynamic application using the static content from the web server.
