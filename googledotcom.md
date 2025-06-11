@@ -21,3 +21,6 @@ Another key component in securing websites is the SSL certificate. SSL stands fo
 ## 5.Load Balancer
  A load-balancer is a device that distributes incoming network traffic across multiple servers. For most website where the traffic is consequent, it would be impossible to be hosted on a single server. Plus, it would create a Single Point of Failure (SPOF), because it would only need one attack on said server to take the whole site down.As needs for higher availability and security rises, websites started augmenting the number of servers they have, organizing them in clusters, and using load-balancers.
  This is how a load balancer works in the case of a browser trying to access google.com, the load balancer would receive the incoming request from the browser and then forward it to one of the servers in the Google server network. This will also work the same way for any domain name you are trying to search for.
+
+ ## 6.Web Server
+ So Once the request is received by one of Google’s servers or the domain URL server you were looking for from the load balancer, it is passed to a web server. The web server is responsible for processing the request, generating the HTML, CSS, and JavaScript that make up the webpage, and sending it back to your browser for you to see it.
